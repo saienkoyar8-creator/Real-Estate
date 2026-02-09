@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Елітна Нерухомість | Ваш Ідеальний Дім</title>
+    <meta name="description"
+        content="Преміальна нерухомість в Україні. Знайдіть свій ідеальний дім серед найкращих пропозицій.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">🏛️</span>
+                    <span class="logo-text">Елітна Нерухомість</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Головна</a></li>
+                    <li><a href="#properties" class="nav-link">Нерухомість</a></li>
+                    <li><a href="#about" class="nav-link">Про нас</a></li>
+                    <li><a href="#services" class="nav-link">Послуги</a></li>
+                    <li><a href="#contact" class="nav-link">Контакти</a></li>
+                </ul>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-subtitle">Знайдіть свій</span>
+                <span class="hero-main">Ідеальний Дім</span>
+            </h1>
+            <p class="hero-description">Преміальна нерухомість у найкращих локаціях України</p>
+
+            <!-- Search Bar -->
+            <div class="search-container">
+                <div class="search-tabs">
+                    <button class="search-tab active" data-type="buy">Купити</button>
+                    <button class="search-tab" data-type="rent">Орендувати</button>
+                </div>
+                <div class="search-form">
+                    <div class="search-input-group">
+                        <input type="text" placeholder="Місто або район" class="search-input">
+                    </div>
+                    <div class="search-input-group">
+                        <select class="search-select">
+                            <option>Тип нерухомості</option>
+                            <option>Квартира</option>
+                            <option>Будинок</option>
+                            <option>Пентхаус</option>
+                            <option>Вілла</option>
+                        </select>
+                    </div>
+                    <div class="search-input-group">
+                        <select class="search-select">
+                            <option>Ціновий діапазон</option>
+                            <option>До $100,000</option>
+                            <option>$100,000 - $250,000</option>
+                            <option>$250,000 - $500,000</option>
+                            <option>$500,000+</option>
+                        </select>
+                    </div>
+                    <button class="search-button">Пошук</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Прокрутіть вниз</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="properties" id="properties">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Рекомендовані</span>
+                <h2 class="section-title">Преміальні Об'єкти</h2>
+                <p class="section-description">Ексклюзивна підбірка найкращої нерухомості</p>
+            </div>
+
+            <div class="properties-grid">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop"
+                            alt="Сучасна квартира">
+                        <div class="property-badge">Новобудова</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$350,000</div>
+                        <h3 class="property-title">Сучасна Квартира в Центрі</h3>
+                        <p class="property-location">📍 Київ, Печерський район</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 3 спальні</span>
+                            <span class="feature">🛁 2 ванні</span>
+                            <span class="feature">📐 120 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop"
+                            alt="Розкішна вілла">
+                        <div class="property-badge premium">Преміум</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$1,200,000</div>
+                        <h3 class="property-title">Розкішна Вілла з Басейном</h3>
+                        <p class="property-location">📍 Одеса, Аркадія</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 5 спальнь</span>
+                            <span class="feature">🛁 4 ванні</span>
+                            <span class="feature">📐 450 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop"
+                            alt="Елітний пентхаус">
+                        <div class="property-badge exclusive">Ексклюзив</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$850,000</div>
+                        <h3 class="property-title">Елітний Пентхаус з Терасою</h3>
+                        <p class="property-location">📍 Львів, Центр</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 4 спальні</span>
+                            <span class="feature">🛁 3 ванні</span>
+                            <span class="feature">📐 280 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+
+                <!-- Property Card 4 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=800&h=600&fit=crop"
+                            alt="Затишний будинок">
+                        <div class="property-badge">Новинка</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$420,000</div>
+                        <h3 class="property-title">Затишний Будинок в Передмісті</h3>
+                        <p class="property-location">📍 Київська область, Буча</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 4 спальні</span>
+                            <span class="feature">🛁 2 ванні</span>
+                            <span class="feature">📐 200 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+
+                <!-- Property Card 5 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
+                            alt="Апартаменти біля моря">
+                        <div class="property-badge">Топ</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$290,000</div>
+                        <h3 class="property-title">Апартаменти біля Моря</h3>
+                        <p class="property-location">📍 Одеса, Ланжерон</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 2 спальні</span>
+                            <span class="feature">🛁 2 ванні</span>
+                            <span class="feature">📐 95 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+
+                <!-- Property Card 6 -->
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop"
+                            alt="Сімейний будинок">
+                        <div class="property-badge">Популярне</div>
+                        <button class="property-favorite">♡</button>
+                    </div>
+                    <div class="property-content">
+                        <div class="property-price">$380,000</div>
+                        <h3 class="property-title">Сімейний Будинок з Садом</h3>
+                        <p class="property-location">📍 Дніпро, Новокодацький район</p>
+                        <div class="property-features">
+                            <span class="feature">🛏️ 3 спальні</span>
+                            <span class="feature">🛁 2 ванні</span>
+                            <span class="feature">📐 180 м²</span>
+                        </div>
+                        <button class="property-button">Детальніше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-subtitle">Про нас</span>
+                    <h2 class="section-title">Ваш Надійний Партнер у Світі Нерухомості</h2>
+                    <p class="about-text">
+                        Ми спеціалізуємося на преміальній нерухомості та пропонуємо найкращі об'єкти в Україні.
+                        З понад 15-річним досвідом роботи, ми допомагаємо нашим клієнтам знайти дім їхньої мрії.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">1500+</div>
+                            <div class="stat-label">Продано об'єктів</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">98%</div>
+                            <div class="stat-label">Задоволених клієнтів</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Років досвіду</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=1000&fit=crop"
+                        alt="Про нас">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Наші послуги</span>
+                <h2 class="section-title">Що Ми Пропонуємо</h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3 class="service-title">Купівля Нерухомості</h3>
+                    <p class="service-description">Допоможемо знайти та придбати ідеальну нерухомість відповідно до
+                        ваших потреб та бюджету.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3 class="service-title">Продаж Нерухомості</h3>
+                    <p class="service-description">Професійний супровід продажу з максимальною вигодою для вас.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔑</div>
+                    <h3 class="service-title">Оренда</h3>
+                    <p class="service-description">Підберемо найкращі варіанти для короткострокової та довгострокової
+                        оренди.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3 class="service-title">Юридичний Супровід</h3>
+                    <p class="service-description">Повний юридичний супровід угод з нерухомістю.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3 class="service-title">Оцінка Нерухомості</h3>
+                    <p class="service-description">Професійна оцінка вартості вашої нерухомості.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3 class="service-title">Інвестиційні Консультації</h3>
+                    <p class="service-description">Експертні поради щодо інвестицій у нерухомість.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-subtitle">Зв'яжіться з нами</span>
+                    <h2 class="section-title">Готові Знайти Ваш Ідеальний Дім?</h2>
+                    <p class="contact-text">
+                        Наші експерти готові відповісти на всі ваші запитання та допомогти знайти ідеальну нерухомість.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div>
+                                <div class="contact-label">Телефон</div>
+                                <div class="contact-value">+380 63 590 14 52</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">info@elitrealty.ua</div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <div class="contact-label">Адреса</div>
+                                <div class="contact-value">вул. Хрещатик 22, Київ</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Телефон" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input" rows="5" placeholder="Ваше повідомлення" required></textarea>
+                    </div>
+                    <button type="submit" class="form-button">Відправити повідомлення</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🏛️</span>
+                        <span class="logo-text">Елітна Нерухомість</span>
+                    </div>
+                    <p class="footer-description">
+                        Ваш надійний партнер у світі преміальної нерухомості в Україні.
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Швидкі посилання</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Головна</a></li>
+                        <li><a href="#properties">Нерухомість</a></li>
+                        <li><a href="#about">Про нас</a></li>
+                        <li><a href="#services">Послуги</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Послуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Купівля</a></li>
+                        <li><a href="#">Продаж</a></li>
+                        <li><a href="#">Оренда</a></li>
+                        <li><a href="#">Консультації</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4 class="footer-title">Соціальні мережі</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Елітна Нерухомість. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
